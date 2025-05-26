@@ -2,11 +2,11 @@ import json
 import random
 
 # Load question categories (testOrg)
-with open("testOrg.json", "r") as f:
+with open("testOrg_private.json", "r") as f:
     category_counts = json.load(f)
 
 # Load questions
-with open("questions.json", "r") as f:
+with open("questions_private.json", "r") as f:
     all_questions = json.load(f)["Questions"]
 
 # Deduplicate by question id (keep only one variation per id)

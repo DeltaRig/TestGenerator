@@ -1,6 +1,6 @@
-# 🧠 OCI Quiz App
+# 🧠 Quiz App
 
-A Python-based CLI quiz application to help you study. It generates randomized quizzes based on category distribution and supports two learning modes:
+A Python-based quiz application to help you study. It generates randomized quizzes based on category distribution and supports two learning modes:
 
 - ✅ **Flashcard Mode** – Recall and self-grade
 - ✅ **Multiple Choice Mode** – Select from shuffled answers
